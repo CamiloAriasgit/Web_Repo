@@ -1,23 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Monserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #101010;
 }
 
-header, nav, section, article, aside, footer{
+header,
+nav,
+section,
+article,
+aside,
+footer {
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
 }
 
-header{
+header {
     background-color: #333;
     color: white;
     text-align: center;
 }
 
-nav{
+nav {
     background-color: #555555;
     color: white;
     text-align: center;
@@ -25,7 +30,7 @@ nav{
 
 }
 
-.menu{
+.menu {
     width: 30px;
     height: 25px;
     display: flex;
@@ -34,22 +39,22 @@ nav{
     cursor: pointer;
 }
 
-.menu div{
+.menu div {
     height: 4px;
     background-color: black;
     border-radius: 2px;
 }
 
-section{
+section {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 5px;
     padding: 0px;
     margin-top: 5px;
     margin-bottom: -5px;
 }
 
-article{
+article {
     flex: 2;
     background: #202020;
     color: white;
@@ -57,22 +62,36 @@ article{
     width: 50%;
 }
 
-article p{
+article p {
     color: #909090;
-    font-family: serif;
 }
 
-article h2{
+article h2 {
     color: #16a5cc;
 }
 
-footer{
+.contactoWhatsApp {
+    display: flex;
+    width: 100%;
+    margin: -10px;
+}
+
+.contactoWhatsApp a {
+    display: flex;
+    padding: 5px;
+    background-color: #023b1e;
+    border-radius: 5px;
+    border: 1px solid #25d366;
+    color: #25d366;
+}
+
+footer {
     background: #333;
     color: white;
     text-align: center;
 }
 
-a{
+a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
